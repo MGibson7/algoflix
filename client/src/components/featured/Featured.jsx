@@ -37,7 +37,7 @@ const Featured = ({type}) => {
                 </select>
             </div>
         )}
-        <img src="https://mechomotive.com/wp-content/uploads/2021/09/programming-coding.jpg" alt="" />
+        <img className="background" src="https://mechomotive.com/wp-content/uploads/2021/09/programming-coding.jpg" alt="" />
         <div className="info">
             <img src={content.img} alt="" />
             <span className="desc">{content.desc}</span>
